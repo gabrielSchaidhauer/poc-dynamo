@@ -10,7 +10,7 @@ public class AWSClientBuilder {
     return AmazonDynamoDBClientBuilder
             .standard()
             .withCredentials(new LocalstackCredentialsProvider())
-            .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("http://localhost:4569", Regions.US_EAST_1.name()))
+            .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("http://localhost:4566", Regions.US_EAST_1.name()))
             .build();
 
   }
